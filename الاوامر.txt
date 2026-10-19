@@ -67,11 +67,7 @@ flutter pub get
 ```bash
 # تجهيز كافة الملفات والتعديلات للحفظ
 git add .
-
-# تسجيل نقطة حفظ مع كتابة وصف مختصر
 git commit -m "Save work"
-
-# رفع التغييرات لمستودع GitHub
 git push origin main
 
 ```
