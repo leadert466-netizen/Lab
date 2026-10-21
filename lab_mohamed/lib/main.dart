@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'data/datasources/product_local_data_source.dart';
 import 'data/repositories/product_repository_impl.dart';
 import 'domain/usecases/get_products.dart';
-import 'presentation/screens/product_grid_screen.dart';
 import 'presentation/screens/product_list_screen.dart';
 
 void main() {
