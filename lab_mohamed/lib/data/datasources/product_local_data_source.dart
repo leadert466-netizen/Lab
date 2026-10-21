@@ -1,4 +1,3 @@
-// lib/data/datasources/product_local_data_source.dart
 import '../models/product_model.dart';
 
 abstract class ProductLocalDataSource {
@@ -36,21 +35,21 @@ class ProductLocalDataSourceImpl implements ProductLocalDataSource {
         name: 'Pro Gaming Mouse',
         description: 'Precision optical sensor with customizable DPI settings and ergonomic grip.',
         price: 49.99,
-        imagePath: 'assets/images/headphones.jpg',
+        imagePath: 'assets/images/mouse.jpg',
       ),
       ProductModel(
         id: '5',
-        name: 'USB-C Docking Station',
-        description: 'Multi-port hub supporting dual 4K monitor outputs and fast pass-through charging.',
-        price: 75.25,
-        imagePath: 'assets/images/keyboard.jpg',
+        name: 'Galaxy Smart Device',
+        description: 'High-performance smart device with modern display technology.',
+        price: 299.99,
+        imagePath: 'assets/images/glaxy.webp',
       ),
       ProductModel(
         id: '6',
-        name: 'Portable Bluetooth Speaker',
-        description: 'Waterproof outdoor speaker delivering deep bass and 360-degree sound.',
-        price: 59.99,
-        imagePath: 'assets/images/watch.jpg',
+        name: 'Studio Wireless Headphones',
+        description: 'Premium wireless over-ear headphones with deep bass response.',
+        price: 129.99,
+        imagePath: 'assets/images/headphones2.jpg',
       ),
     ];
   }
